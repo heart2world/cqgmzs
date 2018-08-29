@@ -1,0 +1,307 @@
+$uicss.met-index-body{
+  padding:$full_padding$px 0px;
+  background-color: $bodybgcolor$;
+  background-color: $background_color$;
+  background-image:url('$background_img$');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+$uicss .project-detail .project figcaption{
+    background-color: transparent;
+    position: absolute;
+    z-index: 996;
+    top:0;
+    left: 0;
+    width: calc($img_x$px + 10px);
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    transform: scale(1);
+}
+$uicss .project-detail .project figcaption a p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $firstcolor$;
+    color: $hover_font_color$;
+    font-size: $hover_font_size$px;
+    opacity: 1;
+    transform: translatex(-8px);
+    z-index: 999;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    left: 9px;
+}
+$uicss .project-detail .project figcaption a h3{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    color: $secondcolor$;
+    color: $subtitle_color$;
+}
+$uicss .project-detail .project .opacity_not_null:hover figcaption{
+    visibility: visible;
+    color: #fff;
+    background-color: $thirdcolor$;
+    background-color: $img_hover_color$;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background:rgba(0,0,0,0.2) none repeat scroll !important; 
+    background:#000; 
+    filter:Alpha(opacity=20);
+    width: calc($img_x$px + 10px);
+    padding: 5px;
+    height: 100%;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    transform: scale(1);
+}
+
+$uicss .project-detail .project .opacity_null:hover figcaption{
+    visibility: visible;
+    color: #fff;
+    background-color: $thirdcolor$;
+    background-color: $img_hover_color$;
+    opacity:1;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: calc($img_x$px + 10px);
+    padding: 5px;
+    height: 100%;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    transform: scale(1);
+}
+
+$uicss .section-project {
+  padding: 50px 0;
+  position: relative;
+  background-color: #222;
+}
+
+$uicss .section__title, $uicss .section__subtitle {
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+$uicss .section__title {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 0 20px;
+}
+
+$uicss .section__subtitle {
+  font-size: 1.2em;
+  line-height: 1.5;
+  opacity: .5;
+}
+$uicss .section__subtitle a {
+  color: inherit;
+}
+
+$uicss .project-carousel {
+  position: relative;
+  overflow: hidden!important;
+  /*padding: 50px 0;*/
+}
+
+$uicss .project-strip {
+  opacity: .6;
+  height: 100%;
+}
+$uicss .project-strip .project {
+  cursor: pointer;
+}
+$uicss .project-strip img {
+  max-width: 100%;
+  width: 100%;
+}
+
+$uicss .project-screen {
+  width: $img_x$px;
+  height: $img_y$px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+$uicss .project-screen .project-detail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: calc( $img_x$px + 10px );
+  height: $img_y$px;
+  z-index: 1;
+}
+$uicss .project-screen .screen-frame {
+  content: " ";
+  width: $img_x$px;
+  height: $img_y$px;
+  position: absolute;
+  background-image: url("../img/macbook.png");
+  background-repeat: no-repeat;
+}
+$uicss .project-screen .project {
+  margin-right: -100%;
+  float: left;
+  cursor: move;
+}
+
+$uicss .category-section{
+  border: 1px solid $btn_color$;
+  color: $btn_color$;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.56px;
+  padding: 12px 40px;
+  text-decoration: none;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  float: right;
+  margin:20px 0;
+}
+$uicss .category-section:hover {
+  background-color: $thirdcolor$;
+  background-color: $btn_hover_color$;
+  border-color: $thirdcolor$;
+  border-color: $btn_hover_color$;
+  color: $btn_color$;
+}
+
+$uicss h2,
+$uicss h6,
+$uicss .h2,
+$uicss .h6 {
+  padding-bottom: 30px;
+  margin: 0;
+  color: $firstcolor$;
+  color: $title_color$;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+$uicss h2,
+$uicss .h2 {
+  font-size: 35px;
+}
+
+
+/*ipad端*/
+@media(max-width: 768px){
+  $uicss.met-index-body{padding: $padding_ipad$px 0px;}
+  $uicss .project-screen .project-detail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: calc( $img_x$px + 10px );
+  height: $img_y$px;
+  z-index: 1;
+}
+}
+
+/*手机端*/
+@media (max-width: 767px){
+  $uicss.met-index-body{padding: $padding_mobile$px 0px;}
+  $uicss .project-screen .project-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 578px;
+    height: 361px;
+    margin: 152px auto 0;
+    z-index: 1;
+  }
+  $uicss .project-detail img {
+    max-width: 170px;
+    height: auto;
+  }
+  $uicss .project-detail .project figcaption a p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $firstcolor$;
+    color: $hover_font_color$;
+    font-size: $hover_font_size$px;
+    opacity: 1;
+    transform: translatex(-8px);
+    z-index: 999;
+    width: 100%;
+    padding:0 20px;
+    position: relative;
+    left: 9px;
+  }
+  $uicss .project-detail .project .opacity_null:hover figcaption{
+      visibility: visible;
+      color: #fff;
+      background-color: $thirdcolor$;
+      background-color: $img_hover_color$;
+      opacity:1;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      width: 170px;
+      padding: 5px;
+      height: 100%;
+      -webkit-transition: all 0.7s ease 0s;
+      -moz-transition: all 0.7s ease 0s;
+      -o-transition: all 0.7s ease 0s;
+      transition: all 0.7s ease 0s;
+      transform: scale(1);
+  }
+  $uicss .project-screen {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 320px){
+  $uicss.met-index-body{padding: $padding_mobile$px 0px;}
+  $uicss .project-screen .project-detail {
+    position: absolute;
+    left: -60px;
+    right: 0;
+    width: 578px;
+    height: 361px;
+    margin: 152px auto 0;
+    z-index: 1;
+  }
+  $uicss .project-detail img {
+    max-width: 170px;
+    height: auto;
+  }
+  $uicss .project-screen {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}

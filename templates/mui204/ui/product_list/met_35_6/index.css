@@ -1,0 +1,148 @@
+$uicss .fadeInLeft{
+  background: $bodybgcolor$;
+  background: $neirong_bgcolor$;
+}
+$uicss.met-index-body{
+    padding: $center_padding$px 0px;
+}
+$uicss ul{
+    padding: 0px;
+    margin: 0px;
+}
+$uicss .mytitle a{
+     color:$firstcolor$;
+    color:$title_color$;
+}
+$uicss .mytitle a:hover{
+       color: $thirdcolor$;
+    color: $mouse_hover$;
+}
+$uicss .module .my_a:hover{
+    background-color: $thirdcolor$;
+    background-color: $mouse_hover$;
+}
+$uicss .boss_box{
+overflow: hidden;
+    width: 100%;
+}
+/*左右的高度保持一致*/
+$uicss .brandxl_tu_R1,
+$uicss .brandxl_txt_L1
+{
+    padding: 0px;
+    height: 460px;
+}
+$uicss .list-group-item
+{
+    background-color: none; 
+}
+$uicss .module .big_img img{
+    width: 100%;
+    max-width: 100%;
+     height: 100%;
+
+}
+$uicss .brandxl_txt_L1 dl dt{
+    overflow: hidden;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 200%;
+
+}
+$uicss .brandxl_txt_L1 dl dd{
+    overflow: hidden;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 180%;
+}
+$uicss .my_desc{
+    color: $secondcolor$;
+    color: $desc_color$;
+    height: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+$uicss .brandxl_txt_L1 dl{
+    overflow: hidden;
+    padding: 0px;
+    width: 90%;
+    float: right;
+    padding: 40px 0px 0px 0px;
+    margin-right: 5%;
+}
+$uicss .module .my_a{
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    margin: 20px auto 10px;
+    border: 1px solid $bodybgcolor$;
+    border-color: $btn_bg_color$;
+    display: block;
+    background-color: $bodybgcolor$;
+    background: $btn_bg_color$;
+}
+$uicss .module .my_a a{
+    padding-left: 37%;
+    color: $secondcolor$;
+    color: $btn_wenzi$;
+}
+$uicss .module .my_a a:hover{
+    color: $btn_wenzi_hover$;
+    display: block;
+}
+$uicss .dt_01 img{
+    /*width: 143px;
+    height: 159px*/
+    max-width: 100%;
+}
+
+$uicss .mytitlebox{
+    text-align: center;
+}
+$uicss .mytitlebox .mytitle h2{
+    color: $firstcolor$;
+    color: $myself_title_color$;
+    font-size: $myself_title_size$px;
+}
+$uicss .mytitlebox .mytitle h2:hover{
+        color: $thirdcolor$;
+    color: $mouse_hover$;
+}
+$uicss .mytitlebox .mydesc{
+    color: $secondcolor$;
+    color: $desc_color$;
+    padding-bottom: 2px;
+}
+$uicss .module ul{
+    list-style:none;
+}
+$uicss .module ul li:nth-of-type(even) .boss_box .fadeInRight{
+    float: right;
+}
+$uicss.met-index-body{
+     background-color: $bodybgcolor$;
+    background-color: $bg_color$;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    $uicss .module .boss_box .brandxl_tu_R1 img{
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    }
+
+}
+@media (max-width:767px) {
+    $uicss .module .big_img img{
+    max-width: 100%;
+    height: auto;
+    height: 100%;
+    }
+    $uicss  .brandxl_tu_R1{
+        height: auto;
+    }
+}

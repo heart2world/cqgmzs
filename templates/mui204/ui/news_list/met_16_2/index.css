@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* 首页新闻区块 */
+$uicss.met-index-body{background:$bodybgcolor$;}
+$uicss.met-index-body.bgcolor{background:$bgcolor$;}
+$uicss.met-index-body.bgpic{background:url($bgpic$) no-repeat;background-size: cover;background-position: center;}
+$uicss.met-index-body{padding:$padding$px 0px;}
+$uicss.met-index-body h2{font-size:36px;color:$firstcolor$;color:$titlecolor$;}
+$uicss.met-index-body p.desc{padding:0 10%;font-size:16px;color:$secondcolor$;color:$desccolor$;}
+$uicss .index-news-list{margin-top:20px;}
+$uicss .index-news-list li{padding: 15px; border: 1px solid transparent; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s;margin-bottom: 15px;}
+$uicss .index-news-list li .media{position:relative;}
+$uicss .index-news-list li h4{font-size:16px;}
+$uicss .index-news-list li p.des{line-height:1.8;font-size:13px;}
+$uicss .index-news-list li .media-body{padding: 5% 25px; text-align: left; padding-right: 80px;}
+$uicss .index-news-list li img{width: 100%; border-radius: 3px;}
+$uicss .index-news-list li a{color:$firstcolor$;color:$titlecolor$;}
+$uicss .index-news-list li p{color:$secondcolor$;color:$desccolor$;}
+$uicss .index-news-list li.shadow:hover{ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);}
+$uicss .index-news-list li .details {position: absolute; bottom: 34px; right: 25px; display: block; width: 29px; height: 29px; border: 1px solid #ddd; border-radius: 3px; color: transparent; -webkit-transition: all ease-out 0.3s; transition: all ease-out 0.3s; text-indent: 6px; }
+$uicss .index-news-list li .details i{font-size: 18px; color: #ddd; line-height: 28px; -webkit-transition: all 0.3s ease-out 0s; transition: all 0.3s ease-out 0s;}
+$uicss .index-news-list li:hover a,$uicss .index-news-list li:hover .details i{color:$thirdcolor$;color:$hovercolor$;}
+$uicss .index-news-list li:hover .details{right: 0; border-color: $thirdcolor$;border-color: $hovercolor$;}
+@media (max-width:991px){
+    $uicss.met-index-body{padding:$padding_p$px 0px;}
+	$uicss .index-news-list li p.des{max-height:5.4em;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+}
+@media (max-width:767px){
+    $uicss.met-index-body{padding:$padding_m$px 0px;}
+	$uicss .index-news-list li{width:100%!important;margin-top:20px;}
+	$uicss .index-news-list li h4{font-size:16px;}
+	$uicss .index-news-list li p.des{max-height:3.6em;-webkit-line-clamp:2;}
+}
+@media (max-width:991px){
+	$uicss .index-news-list{margin-top:10px;}
+}

@@ -1,0 +1,195 @@
+/* 服务范围 */
+$uicss { background-color: $bgcolor$; }
+$uicss .head .title { margin-top: 0; margin-bottom: 0; color: $firstcolor$; color: $titlecolor$; opacity: 0; transform: translate(0, 100%); }
+$uicss .head .subtitle { margin-top: 0; color: $secondcolor$; color: $desccolor$; opacity: 0; transform: translate(0, 100%); }
+$uicss .head .desc { margin-top: 0; color: $secondcolor$; color: $desccolor$; opacity: 0; transform: translate(0, 100%); }
+
+$uicss .service-list .item { opacity: 0; transform: translate(0, 100%); }
+
+$uicss li a img { margin: 0 auto; max-width: 100%; }
+$uicss li a h4{
+    text-align:center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom:0;
+}
+// $uicss li a h4 { overflow: hidden; text-shadow: none; font-size: 16px; height: 46px; line-height: 46px; color: $firstcolor$; color: $titlecolor$; -webkit-transition: all .66s cubic-bezier(.17, .84, .44, 1); transition: all .66s cubic-bezier(.17, .84, .44, 1); border-bottom: 1px solid #e1e1e1; text-align: left; width: 100%; }
+// $uicss li a h4:before { position: absolute; content: ""; width: 10px; height: 1px; background-color: $firstcolor$; background-color: $titlecolor$; margin-top: 46px; -webkit-transition: all .66s cubic-bezier(.17, .84, .44, 1); transition: all .66s cubic-bezier(.17, .84, .44, 1); }
+$uicss li a p { color: $secondcolor$; color: $desccolor$; font-size: 13px; line-height: 24px; height: 50px; overflow: hidden; width: 100%; margin-top: 10px; }
+$uicss li a:hover { text-decoration: none; }
+$uicss li a:hover h4{
+color:$thirdcolor$; color:$hovercolor$;
+}
+$uicss li a:hover h4:before { width: 100%; background-color:$thirdcolor$; background-color:$hovercolor$;}
+
+$uicss .slick-arrow { width: 20px; font-size: 30px; }
+$uicss .slick-arrow:hover{
+    background:$thirdcolor$;
+    background:$arrhoverbgcolor$;
+}
+// $uicss .slick-arrow:before { display: none; }
+// $uicss .slick-arrow.slick-prev { left: -2px; }
+// $uicss .slick-arrow.slick-next { right: -2px; }
+// $uicss .slick-arrow i { color: $secondcolor$; color: $desccolor$; }
+@media (max-width:767px) {
+	$uicss { padding: 30px 15px; }
+}
+// $uicss .fa-angle-left:before{
+//     border-radius: 0 5px 5px 0;
+// }
+// $uicss .fa-angle-right:before{
+//     border-radius: 5px 0 0 5px;
+// }
+
+$uicss .slick-arrow{
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    background: $secondcolor$;
+    background:$arrbgcolor$;
+    margin-top: -25px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+$uicss .slick-prev{
+    left:0;
+}
+$uicss .slick-arrow.twoslick{
+    right:0;
+    border-radius: 5px 0 0 5px;
+}
+$uicss .slick-arrow.twoslick .slick-next{
+    right:0;
+}
+
+/* 开始*/
+
+$uicss { 
+    background-color: $bodybgcolor$; 
+    background-color: $bgcolor$; 
+    padding: 40px 0;
+}
+
+$uicss .imglist{
+    padding: 0;
+    width: 66.66%;
+    margin:0 auto;
+}
+
+$uicss .imglist .slick-track .imgitem img{
+    max-width: 100%;
+    margin:0 auto;
+    height:80px;
+}
+
+$uicss .imglist .slick-track .imgitem{
+    cursor: pointer;
+}
+
+$uicss .imglist .slick-track li.slick-current{
+    background: $navhovercolor$;
+}
+
+$uicss .imglist .slick-track li.slick-current p{
+    color: $navhovertxtcolor$;
+}
+
+$uicss .slick-track li:not(:last-child){
+    border-right:1px solid;
+    border-color: $secondcolor$;
+    border-color: $bordercolor$;
+}
+
+$uicss .imglist .slick-track li p{
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    color: $firstcolor$;
+    color: $navtxtcolor$;
+}
+
+$uicss .service-list {
+    padding: 0;
+    background:$bodybgcolor$;
+    background:$contentbgoclor$;
+  }
+
+$uicss .navbg{
+    background-color:$thirdcolor$;
+    background-color:$navbgcolor$;
+}
+
+$uicss .service-list .mainbox{
+    position:relative;
+}
+
+$uicss .service-list .mainbox .txtbox{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 50px 15px;
+    background-color: $contgbgcolor$;
+    text-align: center;
+}
+
+$uicss .service-list .mainbox .txtbox .link a{
+    text-align: center;
+    font-family: 'Microsoft YaHei','Heiti SC','Helvetica';
+    font-weight: 900;
+    border: 1px solid;
+    border-color: $secondcolor$;
+    border-color: $bordercolor$;
+    display: inline-block;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    color: $btncolor$;
+}
+
+$uicss .service-list .mainbox .txtbox h4{
+    font-size:40px;
+    color:$firstcolor$;
+    color:$titlecolor$;
+    margin:0 0 20px 0;
+    font-family: 'SimSun','Songti SC','Helvetica';
+}
+
+$uicss .service-list .mainbox img{
+    max-width:100%;
+}
+
+$uicss .service-list .mainbox .txtbox p{
+    font-size:18px;
+    font-family: 'SimSun','Songti SC','Helvetica';
+    margin:0 0 20px 0;
+    color: $secondcolor$;
+    color: $desccolor$;
+}
+
+@media (max-width:768px){
+    $uicss .imglist .slick-track .imgitem img{
+        height:40px;
+    }
+    $uicss .service-list .mainbox .txtbox h4{
+        font-size: 28px;
+    }
+    $uicss .service-list .mainbox .txtbox p{
+        font-size: 14px;
+    }
+    $uicss .service-list .mainbox .txtbox{
+        padding:15px 30px
+    }
+    $uicss .imglist .slick-track li p{
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px){
+    $uicss .service-list .mainbox .txtbox{
+        position: relative;
+        background: $contgbgcolor$ !important;
+    }
+}

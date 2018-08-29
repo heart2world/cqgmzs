@@ -1,0 +1,1 @@
+<?php defined('IN_MET') or exit('No permission'); ?>{"mid":"30","ui_show":"1","bgcolor":"","titlecolor":""}

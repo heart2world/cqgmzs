@@ -1,0 +1,162 @@
+array (
+  'met_fd_time' => 
+  array (
+    'id' => '603',
+    'name' => 'met_fd_time',
+    'value' => '120',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_word' => 
+  array (
+    'id' => '604',
+    'name' => 'met_fd_word',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_email' => 
+  array (
+    'id' => '605',
+    'name' => 'met_fd_email',
+    'value' => '0',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_type' => 
+  array (
+    'id' => '606',
+    'name' => 'met_fd_type',
+    'value' => '1',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_to' => 
+  array (
+    'id' => '607',
+    'name' => 'met_fd_to',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_back' => 
+  array (
+    'id' => '608',
+    'name' => 'met_fd_back',
+    'value' => '0',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_title' => 
+  array (
+    'id' => '609',
+    'name' => 'met_fd_title',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_content' => 
+  array (
+    'id' => '610',
+    'name' => 'met_fd_content',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_ok' => 
+  array (
+    'id' => '611',
+    'name' => 'met_fd_ok',
+    'value' => '1',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_sms_back' => 
+  array (
+    'id' => '612',
+    'name' => 'met_fd_sms_back',
+    'value' => '0',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_sms_content' => 
+  array (
+    'id' => '613',
+    'name' => 'met_fd_sms_content',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_fd_sms_dell' => 
+  array (
+    'id' => '614',
+    'name' => 'met_fd_sms_dell',
+    'value' => '',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_message_fd_class' => 
+  array (
+    'id' => '615',
+    'name' => 'met_message_fd_class',
+    'value' => '137',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_message_fd_content' => 
+  array (
+    'id' => '616',
+    'name' => 'met_message_fd_content',
+    'value' => '140',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_message_fd_email' => 
+  array (
+    'id' => '617',
+    'name' => 'met_message_fd_email',
+    'value' => '186',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+  'met_message_fd_sms' => 
+  array (
+    'id' => '618',
+    'name' => 'met_message_fd_sms',
+    'value' => '138',
+    'mobile_value' => '',
+    'columnid' => '96',
+    'flashid' => '0',
+    'lang' => 'cn',
+  ),
+)

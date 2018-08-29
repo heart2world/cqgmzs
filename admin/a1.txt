@@ -1,0 +1,1 @@
+select * from met_mlist where paraid='186' and listid='7' and lang='cn'

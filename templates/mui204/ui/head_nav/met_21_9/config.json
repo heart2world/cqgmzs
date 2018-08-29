@@ -1,0 +1,27 @@
+{
+    "css":[
+        "{$metui_url2}/fonts/web-icons/web-icons.min.css",
+        "app/system/include/static2/fonts/web-icons/web-icons.min.css",
+        "{$metui_url1}vendor/flag-icon-css/flag-icon.min.css",
+        "{$metui_url3}plugin/swiper/swiper-3.3.1.min.css",
+        "{$metui_url2}/vendor/asscrollable/asScrollable.min.css",
+        "{$metui_url1}vendor/flag-icon-css/flag-icon.min.css",
+        "{$metui_url2}vendor/webui-popover/webui-popover.min.css",
+        "{$metui_url3}plugin/slick/slick.min.css",
+        "{$metui_url3}plugin/slick/slick-theme.min.css",
+        "ui/css/index.css"
+    ],
+    "js":[
+        "{$metui_url2}vendor/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js",
+        "{$metui_url2}vendor/s2t/jquery.s2t.js",
+        "{$metui_url2}vendor/webui-popover/jquery.webui-popover.min.js",
+        "{$metui_url2}vendor/tweenmax/TweenMax.min.js",
+        "{$metui_url2}vendor/scrollmagic/ScrollMagic.min.js",
+        "{$metui_url3}plugin/swiper/swiper-3.3.1.jquery.min.js",
+        "{$metui_url2}/vendor/asscrollbar/jquery-asScrollbar.min.js",
+        "{$metui_url2}/vendor/asscrollable/jquery-asScrollable.min.js",
+        "{$metui_url2}/js/Plugin/asscrollable.min.js",
+        "{$metui_url3}plugin/slick/slick.min.js",
+        "ui/js/index.js"
+    ]
+}

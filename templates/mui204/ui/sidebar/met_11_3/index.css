@@ -1,0 +1,36 @@
+$uicss-search { margin-left: 20px; }
+$uicss-search .form-control { border-radius: 0; border-color: $secondcolor$; border-color: $solidcolor$; }
+$uicss-search .form-control:focus, $uicss-search .form-control:active, $uicss-search .form-control:hover { border-color: $thirdcolor$; border-color: $hovercolor$; }
+$uicss { background: $bodybgcolor$; background: $bgcolor$; border: 1px solid; border-color: $secondcolor$; border-color: $solidcolor$; padding: 0; margin-left: 20px; -webkit-box-shadow: 3px 3px 3px -3px #ddd; box-shadow: 3px 3px 3px -3px #ddd }
+$uicss  .news-list-tab .nav-tabs { border: 0; }
+$uicss  .news-list-tab .nav-tabs li { width: 50%; text-align: center; margin: 0; }
+$uicss  .news-list-tab .nav-tabs li a { padding: 12px 25px; margin: 0; border-radius: 0; background: $bodybgcolor$; background: $bgcolor$; color: $firstcolor$; color: $titlecolor$; }
+$uicss .news-list-tab { padding: 0; }
+$uicss  .news-list-tab .nav-tabs li a.active { background: $thirdcolor$; background: $hover_bgcolor$; color: $firstcolor$; color: $hover_titlecolor$; }
+$uicss  .news-list-tab .nav-tabs-solid~.tab-content { background: $thirdcolor$; background: $hover_bgcolor$; padding: 15px }
+$uicss  .list-group a { margin-left: 5px; line-height: 32px; color: $firstcolor$; color: $hover_titlecolor$; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 210px; display: inline-block }
+$uicss  .list-group .time { display: block; margin-left: 26px; color: $secondcolor$; color: $hover_desccolor$; }
+$uicss  .list-group .tag-pill.up { margin: 0;display: inline-block;    padding: 3px 6px; }
+$uicss .list-group .tag-warning{
+	background-color: #f2a654;color: #fff;
+}
+$uicss .list-group .tag-default{
+	color: #76838f;background-color: #e4eaec;
+}
+@media (max-width:991px) {
+	$uicss { margin-left: 0; margin-top: 30px; padding: 30px; width: 100% }
+	$uicss  .list-group a { max-width: 100% }
+	$uicss-search { margin: 0; }
+	.col-lg-3 { padding: 0 30px !important; }
+}
+@media (max-width:767px) {
+	$uicss { margin: 0; padding: 0 }
+	$uicss-search { margin: 0; }
+	.col-lg-3 { padding: 0 15px !important; }
+}
+@media (max-width:415px) {
+	$uicss  .list-group a { max-width: 270px }
+}
+@media (max-width:320px) {
+	$uicss  .list-group a { max-width: 210px }
+}

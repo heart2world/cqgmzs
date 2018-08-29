@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* 底部信息 */
+$uicss{background: $bodybgcolor$;background: $bgcolor$;color:$firstcolor$;color:$titlecolor$;}
+$uicss a{color:$firstcolor$!important;color:$icon_color$!important;}
+$uicss a.icon.style2:before {
+        box-shadow: inset 0 0 0 1px $icon_color$;
+        color:$icon_color$;
+    }
+$uicss a:hover{color:$thirdcolor$;}
+$uicss .btn-outline.btn-defa$uicss ult{color:$firstcolor$;color:$titlecolor$;border-color: $bordercolor$;}
+$uicss .powered_by_metinfo a{color:$thirdcolor$;color:$hovercolor$;}
+$uicss.border-top1{border-color: $linecolor$;}
+footer{line-height:1.8;}
+footer p{margin-bottom:0px;}
+footer .met-langlist{margin-top:10px;}
+.met-langlist li{display: inline-block;list-style: none;}
+.met-langlist .btn-lang .flag-icon{margin-right:3px;}
+.met-langlist .dropdown-menu{min-width:0;width: 100%;}
+.met-langlist .dropdown-menu .dropdown-item{white-space:nowrap;}
+@media (max-width:479px){
+	.met-langlist .btn-lang{padding-left:5px;padding-right:5px;}
+}
+#met-langlist-modal .modal-body .close{position:absolute;right:10px;top:0px;}
+#met-langlist-modal a.btn{border:none;font-size:16px;height:50px;line-height:50px;}
+#met-langlist-modal .flag-icon{margin-right:8px;top:7px;font-size:30px;}
+$uicss .met-langlist .btn-outline.btn-default{
+    color:$bordercolor$;
+    border-color:$bordercolor$;
+}
+$uicss .met-langlist .btn-outline.btn-default:hover{
+    color:#fff;
+    border-color:$bordercolor$;
+    background-color:$bordercolor$;
+}
+   $uicss ol {
+        list-style: decimal;
+        margin: 0 0 2rem 0;
+        padding-left: 1.25rem;
+    }
+
+       $uicss ol li {
+            padding-left: 0.25rem;
+        }
+
+    $uicss ul {
+        list-style: disc;
+        margin: 0 0 2rem 0;
+        padding-left: 1rem;
+    }
+
+        $uicss ul li {
+            padding-left: 0.5rem;
+        }
+
+        $uicss ul.alt {
+            list-style: none;
+            padding-left: 0;
+        }
+
+            $uicss ul.alt li {
+                border-top: solid 1px;
+                padding: 0.5rem 0;
+            }
+
+                $uicss ul.alt li:first-child {
+                    border-top: 0;
+                    padding-top: 0;
+                }
+
+        $uicss .icons {
+            cursor: defa$uicss ult;
+            list-style: none;
+            padding-left: 0;
+            text-align:center;
+        }
+
+            $uicss .icons li {
+                display: inline-block;
+                padding: 0 0.75rem 0 0;
+            }
+
+                $uicss u$uicssl.icons li:last-child {
+                    padding-right: 0;
+                }
+
+        $uicss ul.actions {
+            cursor: defa$uicss ult;
+            list-style: none;
+            padding-left: 0;
+        }
+
+            $uicss ul.actions li {
+                display: inline-block;
+                padding: 0 1rem 0 0;
+                vertical-align: middle;
+            }
+
+                $uicss ul.actions li:last-child {
+                    padding-right: 0;
+                }
+
+            $uicss ul.actions.small li {
+                padding: 0 0.5rem 0 0;
+            }
+
+            $uicss ul.actions.vertical li {
+                display: block;
+                padding: 1rem 0 0 0;
+            }
+
+                $uicss ul.actions.vertical li:first-child {
+                    padding-top: 0;
+                }
+
+                $uicss ul.actions.vertical li > * {
+                    margin-bottom: 0;
+                }
+
+            $uicss ul.actions.vertical.small li {
+                padding: 0.5rem 0 0 0;
+            }
+
+                $uicss ul.actions.vertical.small li:first-child {
+                    padding-top: 0;
+                }
+
+            $uicss ul.actions.fit {
+                display: table;
+                margin-left: -1rem;
+                padding: 0;
+                table-layout: fixed;
+                width: calc(100% + 1rem);
+            }
+
+                $uicss ul.actions.fit li {
+                    display: table-cell;
+                    padding: 0 0 0 1rem;
+                }
+
+                    $uicss ul.actions.fit li > * {
+                        margin-bottom: 0;
+                    }
+
+                $uicss ul.actions.fit.small {
+                    margin-left: -0.5rem;
+                    width: calc(100% + 0.5rem);
+                }
+
+                    $uicss ul.actions.fit.small li {
+                        padding: 0 0 0 0.5rem;
+                    }
+
+            @media screen and (max-width: 480px) {
+
+                $uicss ul.actions {
+                    margin: 0 0 2rem 0;
+                }
+
+                    $uicss ul.actions li {
+                        padding: 1rem 0 0 0;
+                        display: block;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                        $uicss ul.actions li:first-child {
+                            padding-top: 0;
+                        }
+
+                        $uicss ul.actions li > * {
+                            width: 100%;
+                            margin: 0 !important;
+                        }
+
+                            $uicss ul.actions li > $uicss*.icon:before {
+                                margin-left: -2rem;
+                            }
+
+                    $uicss ul.actions.small li {
+                        padding: 0.5rem 0 0 0;
+                    }
+
+                        $uicss ul.actions.small li:first-child {
+                            padding-top: 0;
+                        }
+
+            }
+
+    $uicss ul.alt li {
+        border-top-color: rgba(0, 0, 0, 0.2);
+    }
+    /* Icon */
+   $uicss .icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+        text-align: center;
+    }
+
+       $uicss .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+       $uicss .icon > .label {
+            display: none;
+        }
+
+       $uicss .icon.style2:before {
+            border-radius: 2.75em;
+            display: inline-block;
+            height: 2.75em;
+            line-height: 2.75em;
+            width: 2.75em;
+        }
+
+       $uicss .icon.major {
+            display: block;
+            margin: 0 0 1rem 0;
+        }
+
+           $uicss .icon.major:before {
+                font-size: 1.25rem;
+            }
+
+    $uicss a.icon.style2:before {
+        -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+
+   $uicss .icon.style2:before {
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    }
+
+    $uicss a.icon.style2:hover:before {
+        box-shadow: inset 0 0 0 1px $icon_hover_color$;
+        color:$icon_hover_color$;
+    }
+
+    $uicss a.icon.style2:active:before {
+        background-color: rgba(71, 211, 229, 0.1);
+        box-shadow: inset 0 0 0 1px #47D3E5;
+        color: #47D3E5;
+    }
+   $uicss .icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+        text-align: center;
+    }
+
+       $uicss .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
+       $uicss .icon > .label {
+            display: none;
+        }
+
+       $uicss .icon.style2:before {
+            border-radius: 2.75em;
+            display: inline-block;
+            height: 2.75em;
+            line-height: 2.75em;
+            width: 2.75em;
+        }
+
+       $uicss .icon.major {
+            display: block;
+            margin: 0 0 1rem 0;
+        }
+
+           $uicss .icon.major:before {
+                font-size: 1.25rem;
+            }
+
+    $uicssa.icon.style2:before {
+        -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+
+   $uicss .icon.style2:before {
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    }
