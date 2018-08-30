@@ -1517,7 +1517,7 @@ footer .met-langlist{margin-top:10px;}
 
 @charset "utf-8";
 .about_list_met_21_9.bgcolor{background:#1a1a1a;background:;}
-.about_list_met_21_9.bgpic{background:url(http://cqgmzs.heart2world.com/upload/201808/1534904761.jpg?met-id=0&met-table=ui_config&met-field=uip_value) no-repeat;background-size: cover;background-position: center;}
+.about_list_met_21_9.bgpic{background:url(http://cqgmzs.heart2world.com/upload/201808/1534904761.jpg) no-repeat;background-size: cover;background-position: center;}
 .about_list_met_21_9{margin:0px 0px;}
 .about_list_met_21_9 h2{font-size:36px;color:#ffffff;color:;}
 .about_list_met_21_9 p.desc{font-size:16px;color:#dddddd;color:#eeeeee;}
@@ -1584,7 +1584,7 @@ footer .met-langlist{margin-top:10px;}
   padding:70px 0px;
   background-color: #1a1a1a;
   background-color: #000000;
-  background-image:url('?met-id=0&met-table=ui_config&met-field=uip_value');
+  background-image:url('');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2237,7 +2237,7 @@ overflow: hidden;
 /* 首页新闻区块 */
 .news_list_met_16_2.met-index-body{background:#1a1a1a;}
 .news_list_met_16_2.met-index-body.bgcolor{background:#1a1a1a;}
-.news_list_met_16_2.met-index-body.bgpic{background:url(?met-id=0&met-table=ui_config&met-field=uip_value) no-repeat;background-size: cover;background-position: center;}
+.news_list_met_16_2.met-index-body.bgpic{background:url() no-repeat;background-size: cover;background-position: center;}
 .news_list_met_16_2.met-index-body{padding:70px 0px;}
 .news_list_met_16_2.met-index-body h2{font-size:36px;color:#ffffff;color:;}
 .news_list_met_16_2.met-index-body p.desc{padding:0 10%;font-size:16px;color:#dddddd;color:;}
